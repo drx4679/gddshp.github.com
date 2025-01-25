@@ -1,0 +1,20 @@
+{
+  "appId": "com.product-manager.app",
+  "productName": "Product Manager",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": [
+    "dist",
+    "dist-electron"
+  ],
+  "mac": {
+    "target": ["dmg"]
+  },
+  "win": {
+    "target": ["nsis"]
+  },
+  "linux": {
+    "target": ["AppImage"]
+  }
+}
